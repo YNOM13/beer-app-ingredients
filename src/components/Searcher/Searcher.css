@@ -1,0 +1,38 @@
+.searcher-container{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.searcher-container > input{
+    border: none;
+    outline: none;
+    background: #efefef;
+    border-radius: 2px;
+    width: 200px;
+    height: 30px;
+    padding: 4px;
+    margin: 10px;
+    box-shadow: 1px 1px 1px #d3d1d1;
+    transition: 0.3s;
+}
+.searcher-container > input:focus{
+    background: #dedede;
+}
+.searcher-container button{
+    margin: 10px 0;
+    padding: 0 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #f8bdbd;
+    box-shadow: 1px 1px 1px #d3d1d1;
+    transition: 0.3s;
+}
+.searcher-container button:hover{
+    background: #f8a7a7;
+}
+
+.searcher-container button:active{
+    background: #f19494;
+}

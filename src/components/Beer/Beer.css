@@ -1,0 +1,25 @@
+.beer-card{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-of-beer{
+    max-height: 150px;
+}
+.beer-card-action-buttons{
+    margin-top: auto;
+    width: 100%;
+}
+.beer-card-action-buttons > button{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+}
+.ingredients-elements{
+    padding: 0 16px;
+    align-self: flex-start;
+}
+.title-ingredients{
+    padding-top: 20px;
+}

@@ -1,0 +1,68 @@
+.modal{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.main-block-modal{
+    margin: 5px;
+    max-width: 130px;
+    min-width: 130px;
+}
+.modal-content{
+    display: flex;
+    border: 1px solid black;
+    padding: 4px;
+    border-radius: 8px;
+    margin: 3px;
+    align-items: center;
+    justify-content: space-between;
+}
+.ingredients-modal{
+    font-size: 13px;
+}
+.ingredients-modal-element{
+    background: rgba(192, 252, 252, 0.83);
+    margin-top: 2px;
+    border-radius: 3px;
+    padding: 0 2px;
+}
+.title-modal{
+    font-size: 16px;
+    font-weight: bold;
+}
+.description-modal{
+    font-size: 13px;
+}
+.img-of-beer-modal{
+    max-height: 100px;
+}
+.button-delete{
+    color: red;
+    background: none;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.3s all;
+    border-radius: 3px;
+    font-size: 13px;
+}
+.button-delete:hover{
+    background: rgba(128, 128, 128, 0.18);
+}
+.button-more{
+    color: #009dff;
+    background: none;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.3s all;
+    border-radius: 3px;
+    font-size: 13px;
+}
+.button-more:hover {
+    background: rgba(128, 128, 128, 0.18);
+}

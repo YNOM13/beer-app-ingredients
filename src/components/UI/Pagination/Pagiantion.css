@@ -1,0 +1,20 @@
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: #dadad5;
+    overflow: auto;
+    border-radius: 5px;
+}
+
+.page-item {
+    padding: 10px;
+    display: flex;
+}
+.page-link{
+    background: #a6a6a6;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    box-shadow: 1px 1px 1px rgba(155, 155, 155, 0.36);
+}

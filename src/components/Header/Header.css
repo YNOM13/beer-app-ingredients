@@ -1,0 +1,8 @@
+.header{
+    background: rgba(192, 252, 252, 0.83);
+    padding: 30px;
+    position: sticky;
+    top: 0;
+    margin-top: 5px;
+    z-index: 100;
+}
